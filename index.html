@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roller App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <!-- Project - DICE ROLLER App -->
+
+    <div class="main-section">
+
+        <div class="dice-roller-container">
+
+            <div class="part-one">
+                <div class="title-part">
+                    <h1>Dice Roller</h1>
+                </div>
+
+                <div class="input-part">
+                    <label for="input-CTA"># of dice:</label>
+                    <input type="number" value="1" min="1" max="6" id="input-CTA">
+                </div>
+
+                <div class="btn-part">
+                    <button onclick="rollDice()" id="btn-CTA">Roll Dice</button>
+                </div>
+            </div>
+
+            <div class="part-two">
+                <div class="result-part">
+                    <div id="diceResult"></div>
+                    <div id="diceImages"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
